@@ -9,6 +9,6 @@ These guides include instructions for mySQL and Python. MySQL was voted the most
 These how-to-guides include:
 
 MySQL:
-1. How to load data into mySQL (see how-to-load-data-into-mySQL)
+1. How to load data into mySQL (how-to-load-data-into-mySQL)
 
 More guides to follow soon
