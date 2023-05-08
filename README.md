@@ -10,3 +10,5 @@ These how-to-guides include:
 
 MySQL:
 1. How to load data into mySQL (see how-to-load-data-into-mySQL)
+
+More guides to follow soon
