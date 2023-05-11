@@ -8,7 +8,7 @@ These guides include instructions for mySQL and Python. MySQL was voted the most
 
 ## The most important how-to-guides include:
 
-1. how-to-load-data-into-mysql (detailing how to load data from .csv and .txt files into a mySQL database)
+1. how-to-load-data-into-mySQL (detailing how to load data from .csv and .txt files into a mySQL database)
 
 ## Other optional how-to-guides include:
 1. MySQL-connector-python (useful if you want to conduct sql queries on your mySQL database using a python script)
