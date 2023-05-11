@@ -6,9 +6,9 @@ I also included some of my own conventions in this guide. These conventions are 
 
 These guides include instructions for mySQL and Python. MySQL was voted the most popular database (https://learnsql.com/blog/most-popular-databases-2023/), and Python the most popular data science programming language in 2023 (https://www.datacamp.com/blog/top-programming-languages-for-data-scientists-in-2022).
 
-These how-to-guides include:
+## The most important how-to-guides include:
 
-MySQL:
-1. How to load data into mySQL (how-to-load-data-into-mySQL)
+1. how-to-load-data-into-mysql (detailing how to load data from .csv and .txt files into a mySQL database)
 
-More guides to follow soon
+## Other optional how-to-guides include:
+1. MySQL-connector-python (useful if you want to conduct sql queries on your mySQL database using a python script)
