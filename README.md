@@ -14,3 +14,4 @@ These guides include instructions for mySQL and Python. MySQL was voted the most
 
 ## Other optional how-to-guides include:
 1. MySQL-connector-python (useful if you want to conduct sql queries on your mySQL database using a python script)
+2. how-to-extract-columns-from-text-R (useful if you want to extract columns from very large text files [R script])
