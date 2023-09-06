@@ -1,0 +1,35 @@
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 10
+Server version: 8.0.33 MySQL Community Server - GPL
+
+Copyright (c) 2000, 2023, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+# Have a look at the variable names in the first table (optional)
+mysql> DESCRIBE table1;
+
+# Have a look at the variable names in the second table (optional)
+mysql> DESCRIBE table2;
+
+# Create the new (combined) table and join the two tables together based on a shared variable.
+# In this case id and id2 is the shared variable (note that the shared variable needs to have different names in the different tables, otherwise you will get an error)
+# This command will join all the columns of both tables
+# Explanation to choose between join options (INNER JOIN; LEFT JOIN etc.) here: https://www.w3schools.com/mysql/mysql_join.asp
+mysql> CREATE TABLE table3 
+    -> SELECT * FROM table1 LEFT JOIN table2 on table1.id = table2.id2; 
+
+# You can also only join selected variables from the two tables  (optional)
+# This command will only join specific columns of both tables
+mysql> CREATE TABLE table3 
+    -> SELECT table1.variable1, table1.variable2, table2.variable1
+    ->  FROM table1 
+    ->  LEFT JOIN table2 on table1.id = table2.id2;
+
+#Check that the two tables were joined correctly
+mysql> DESCRIBE table3;
+
