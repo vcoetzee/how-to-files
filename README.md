@@ -12,6 +12,7 @@ These guides include instructions for mySQL and Python. MySQL was voted the most
 2. how-to-join-tables-mySQL
 3. how-to-data-wrangle
 4. how-to-pca
+5. how-to-regression-models
 
 ## Other optional how-to-guides include:
 1. MySQL-connector-python (useful if you want to conduct sql queries on your mySQL database using a python script)
