@@ -1,0 +1,15 @@
+R script for extracting columns from large text files 
+
+setwd("C:/Users/file_location")
+
+install.packages("tidyverse")
+library("tidyverse")
+
+df1 <- read.delim("file_name.txt", header=TRUE, sep = "\t")
+as_tibble(df1)
+
+#Select only the columns you want using the names of the columns
+df2 <- select(df1, column1, column2, column3)
+
+# write three columns to .csv file
+write.csv(df2, "new_file_name.csv", row.names = F)
